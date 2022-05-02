@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  padding: 6rem;
+}
+input{
+  width: 100%;
+  font-size: 1.3rem;
+  color:black;
+  height: 3rem;
+}
+.card-grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap
+}
+
+.card{
+  align-content: center;
+  border: 1px solid gray;
+  border-radius: .6rem;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+.card p{
+  padding: 0.5rem;
+  text-align: center;
+}
+.card img{
+  max-height: 170px;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  width: 100%;
+  
+  background-color: grey;
+}
+.header{
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+  margin-left: 2rem;
+}
